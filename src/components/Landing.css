@@ -7,8 +7,9 @@
   body{
     font-family: "Segoe UI", sans-serif;
     background: url(../parallaxElems/bg.png)no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
   }
   
   .container{
