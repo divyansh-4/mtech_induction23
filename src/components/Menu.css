@@ -5,6 +5,72 @@
   }
 
 body{
-    font-family: "Segoe UI", sans-serif;
-    height: 100vh;
+    font-family: "Manrope", sans-serif;
   }
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Manrope", sans-serif;
+}
+
+.menu-item1{
+    display: grid;
+    background-color: #2D51FD;
+
+}
+
+.menu-item1-1{
+    display: flex;
+    position: relative;
+    top: 10%;
+}
+
+.menu-item1-2{
+    display: flex;
+    position: relative;
+}
+
+.menu-item1-3{
+    display: flex;
+    position: relative;
+    top: 10%;
+}
+.menu-item1-4{
+    display: flex;
+}
+
+
+.menu-item2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.menu-item2-1{
+    display: flex;
+    position: relative;
+    background: #FFD0D0;
+    font-size: 3rem;
+
+}
+.menu-item2-2{
+    display: flex;
+    position: relative;
+    background: #FFD0D0;
+}
+.menu-item2-3{
+    display: flex;
+    position: relative;
+    background: #FFD0D0;
+}
+.menu-item2-4{
+    display: flex;
+    position: relative;
+    background: #FFD0D0;
+}
+
+
