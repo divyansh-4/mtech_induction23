@@ -22,7 +22,7 @@ body{
 
 }
 .menu-item1- {
-    display: auto;
+    display: flex;
     position: relative;
     padding: 10px;
     margin: 2px;
