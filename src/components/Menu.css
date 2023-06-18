@@ -27,43 +27,55 @@ body{
 .menu-item1- {
     display: revert;
     position: relative;
-    left: 1rem;
-    top: 1rem;
-
+    padding: revert;
+    left : 5rem;
+    height: fit-content;
+    width: fit-content;
 }
 
 .menu-item1-1{
     display: flex;
     position: relative;
+    align-content: center;
+    height: fit-content;
+}
+
+.logo{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .menu-item1-2{
     display: flex;
     position: relative;
     align-content: center;
+    height: fit-content;
 }
 
 .menu-item1-3{
     display: flex;
     position: relative;
-    top: 10%;
+    height: fit-content;
 }
 .menu-item1-4{
     display: flex;
+    position:relative;
 }
 
 .Home{
     display: flex;
     position: relative;
     font-size: 5rem;
-    left: 7rem;
+    left: 5rem;
     color: #DCFF02;
 }
 
 .FAQ {
     display: flex;
     position: relative;
-    left: 7rem;
+    left: 5rem;
     color: #DCFF02;
 }
 
@@ -71,8 +83,10 @@ body{
     display: flex;
     position: relative;
     text-align: center;
-    left: 12rem;
+    left: 10rem;
     color: #DCFF02;
+    width: fit-content;
+    height: fit-content;
 }
 
 
@@ -100,6 +114,8 @@ body{
     left: 5rem;
     top: 5rem;
     color: #2D51FD;
+    width: fit-content;
+    height: fit-content;
 
 }
 
@@ -111,6 +127,8 @@ body{
     left: 5rem;
     top: 5rem;
     color: #BC95F2;
+    width: fit-content;
+    height: fit-content;
 }
 
 .Virtual{
@@ -121,6 +139,8 @@ body{
     left: 5rem;
     top: 5rem;
     color: #5C2293;
+    width: fit-content;
+    height: fit-content;
 }
 
 .Gallery{
@@ -131,6 +151,8 @@ body{
     left: 5rem;
     top: 5rem;
     color: #DCFF02;
+    width: fit-content;
+    height: fit-content;
 }
 
 .menu-item2-2{

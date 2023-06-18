@@ -11,11 +11,11 @@ const Menu = () => {
         <div className="menu">
             < div className="menu-item1">
                 <div className="menu-item1-">
-                    <img  src={iiitdlogo} alt="" />
-                    <img  src={inductionlogo} alt="" />
-                    <img  src={instagramline} alt="" />
-                    <img  src={facebooklogo} alt="" />
-                    <img  src={twitterline} alt="" />
+                    <img  className={"logo"} src={iiitdlogo} alt="" />
+                    <img  className={"logo"} src={inductionlogo} alt="" />
+                    <img  className={"logo"} src={instagramline} alt="" />
+                    <img className={"logo"} src={facebooklogo} alt="" />
+                    <img  className={"logo"} src={twitterline} alt="" />
                 </div>
                 <div className="menu-item1-1"> <h1 className={"Home"}> HOME</h1> </div>
                 <div className="menu-item1-2"> <h1 className={"Home"}> ABOUT US</h1></div>
