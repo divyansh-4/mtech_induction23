@@ -21,6 +21,13 @@ body{
     background-color: #2D51FD;
 
 }
+.menu-item1- {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    font-family: "Manrope", sans-serif;
+}
 
 .menu-item1-1{
     display: flex;
@@ -54,23 +61,31 @@ body{
     display: flex;
     position: relative;
     background: #FFD0D0;
-    font-size: 3rem;
 
 }
+
+.menu-item2-1 .h1{
+    font-size: 2.5rem;
+    font-weight: 180;
+    margin: auto;
+
+
+}
+
 .menu-item2-2{
     display: flex;
     position: relative;
-    background: #FFD0D0;
+    background: #D6DCFF;
 }
 .menu-item2-3{
     display: flex;
     position: relative;
-    background: #FFD0D0;
+    background: #FFFFFF;
 }
 .menu-item2-4{
     display: flex;
     position: relative;
-    background: #FFD0D0;
+    background: #B5B1FE;
 }
 
 
