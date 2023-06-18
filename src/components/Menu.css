@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,8 +23,6 @@ body{
     display: grid;
     background-color: #2D51FD;
     font-size: xx-large;
-    text-align: center;
-    place-items: center;
 }
 .menu-item1- {
     display: revert;
@@ -36,10 +35,6 @@ body{
 .menu-item1-1{
     display: flex;
     position: relative;
-    top: 10%;
-    font-size: xx-large;
-    align-content: center;
-    text-align: center;
 }
 
 .menu-item1-2{
@@ -56,6 +51,31 @@ body{
 .menu-item1-4{
     display: flex;
 }
+
+.Home{
+    display: flex;
+    position: relative;
+    font-size: 5rem;
+    left: 7rem;
+    color: #DCFF02;
+}
+
+.FAQ {
+    display: flex;
+    position: relative;
+    left: 7rem;
+    color: #DCFF02;
+}
+
+.Speakers{
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 12rem;
+    color: #DCFF02;
+}
+
+
 
 
 .menu-item2{
