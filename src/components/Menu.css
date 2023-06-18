@@ -21,6 +21,13 @@ body{
     background-color: #2D51FD;
 
 }
+.menu-item1- {
+    display: auto;
+    position: relative;
+    padding: 10px;
+    margin: 2px;
+    font-family: "Manrope", sans-serif;
+}
 
 .menu-item1-1{
     display: flex;
