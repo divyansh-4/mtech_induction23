@@ -62,25 +62,28 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     font-family: "Manrope", sans-serif;
-    font-size: xx-large;
-
+    font-size: larger;
 }
 
 .menu-item2-1{
     display: flex;
     position:relative;
     background: #FFD0D0;
+    text-decoration-color: #5e1a78;
+    font-size: xxx-large;
+}
+.menu-item2-1 .Schedule{
+    display: flex;
+    position: relative;
+    text-decoration-color: #5e1a78;
+    font-size: 5rem;
+    text-align: center;
+    left: 5rem;
+    top: 5rem;
+    color: #2D51FD;
 
 }
 
-.menu-item2-1 .h1{
-    font-size: 2.5rem;
-    font-weight: 180;
-    margin: auto;
-    align-content: center;
-
-
-}
 
 .menu-item2-2{
     display: flex;
