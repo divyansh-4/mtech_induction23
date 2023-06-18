@@ -15,9 +15,9 @@ const Menu = () => {
             </div>
             < div className="menu-item2">
                 <div className="menu-item2-1"> <h1> SCHEDULE</h1> </div>
-                <div className="menu-item2-2"> CONTACT </div>
-                <div className="menu-item2-3"> VIRTUAL TOUR </div>
-                <div className="menu-item2-4"> GALLERY </div>
+                <div className="menu-item2-2"> <h1> CONTACT </h1> </div>
+                <div className="menu-item2-3"> <h1> VIRTUAL TOUR</h1> </div>
+                <div className="menu-item2-4"> <h1> GALLERY </h1> </div>
             </div>
 
         </div>
