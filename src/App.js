@@ -12,7 +12,7 @@ function App() {
       <Navb />
       <Landing />
         {/* <Menu /> */}
-      <Welcome />
+      {/* <Welcome /> */}
 
     </div>
   );
