@@ -6,11 +6,13 @@ import Landing from './components/Landing';
 import Navb from './components/Navb';
 import Welcome from './components/Welcome';
 import Menu from "./components/Menu";
+import Speakers from "./components/Speakers";
 function App() {
   return (
     <div className="App">
       <Navb />
       <Welcome />
+        <Speakers />
     </div>
   );
 }
