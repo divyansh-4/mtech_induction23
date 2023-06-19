@@ -82,7 +82,8 @@ body{
 .Home{
     display: flex;
     position: relative;
-    font-size: 5rem;
+    font-size: 7rem;
+    font-weight: 900;
     left: 5rem;
     color: #DCFF02;
 }
@@ -92,6 +93,7 @@ body{
     position: relative;
     left: 5rem;
     color: #DCFF02;
+    font-weight: bolder;
 }
 
 .Speakers{
@@ -110,8 +112,8 @@ body{
 .menu-item2{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    font-family: "Manrope", sans-serif;
-    font-size: larger;
+    font-family: 'custom-mongoose',"Manrope", sans-serif;
+
 }
 
 .menu-item2-1{
@@ -124,7 +126,10 @@ body{
 .Schedule{
     display: flex;
     position: relative;
-    font-size: 5rem;
+    font-size: 7rem;
+    font-weight: 900; /* this is the boldness of the font and this is the maximum limit*/
+    text-shadow: #2D51FD;
+    font-stretch: expanded;
     text-align: center;
     left: 5rem;
     top: 5rem;
@@ -137,7 +142,8 @@ body{
 .Contact{
     display: flex;
     position: relative;
-    font-size: 5rem;
+    font-size: 7rem;
+    font-weight: 900;
     text-align: center;
     left: 5rem;
     top: 5rem;
@@ -149,7 +155,8 @@ body{
 .Virtual{
     display: flex;
     position: relative;
-    font-size: 5rem;
+    font-size: 7rem;
+    font-weight: 900;
     text-align: center;
     left: 5rem;
     top: 5rem;
@@ -161,7 +168,8 @@ body{
 .Gallery{
     display: flex;
     position: relative;
-    font-size: 5rem;
+    font-size: 7rem;
+    font-weight: 900;
     text-align: center;
     left: 5rem;
     top: 5rem;
