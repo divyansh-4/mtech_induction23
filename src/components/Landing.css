@@ -63,6 +63,16 @@
     font-weight: 500;
     letter-spacing: 10px;
   }
+
+  .date{
+      margin-top: 25rem;
+      justify-content: center;
+      font-family: 'Manrope', sans-serif;
+      font-size: 5rem;
+      font-weight: 900;
+      color: #fff;
+  }
+
   
   @media (max-width:800px){
     .container h2{
