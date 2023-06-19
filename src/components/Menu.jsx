@@ -1,25 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Menu.css';
 import inductionlogo from '../components/Assets/InductionLogo.png';
 import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
 import facebooklogo from '../components/Assets/facebook.png'
 import twitterline from  '../components/Assets/twitter-line.png'
 import instagramline from '../components/Assets/instagram-line.png'
+import Welcome from './Welcome';
+import Navb from './Navb';
 // import '../fontface.css';
 
 
 const Menu = () => {
+    const [menut, setToggle] = useState(true);
+    function viewMenu(){
+      setToggle(!(menut))
+    }
+
     return (
-        <div className="menu">
+        menut ?(<div className="menu">
             < div className="menu-item1">
                 <div className="menu-item1-">
                     <img  className={"logo"} src={iiitdlogo} alt="" />
-                    <img  className={"logo"} src={inductionlogo} alt="" />
+                    <img  className={"logo"} src={inductionlogo} alt="" onClick={viewMenu} />
                     <img  className={"logo"} src={instagramline} alt="" />
                     <img className={"logo"} src={facebooklogo} alt="" />
                     <img  className={"logo"} src={twitterline} alt="" />
                 </div>
-                <div className="menu-item1-1"> <h1 className={"Home"}> HOME</h1> </div>
+                <div className="menu-item1-1"> <h1 className={"Home"} onClick={viewMenu}> HOME</h1> </div>
                 <div className="menu-item1-2"> <h1 className={"Home"}> ABOUT US</h1></div>
                 <div className="menu-item1-3"> <h1 className={"Home"}> LOCATION</h1> </div>
                 <div className="menu-item1-4">
@@ -34,7 +41,7 @@ const Menu = () => {
                 <div className="menu-item2-4"> <h1 className={"Gallery"}> GALLERY </h1> </div>
             </div>
 
-        </div>
+        </div>):<Navb />
     );
 };
 export default Menu;

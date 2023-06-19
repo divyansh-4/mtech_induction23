@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Landing.css';
-
+import Navb from './Navb';
 import image1 from "../parallaxElems/1.png";
 import image2 from "../parallaxElems/2.png";
 import image3 from "../parallaxElems/3.png";
@@ -30,10 +30,12 @@ const Landing = () => {
   }, []);
 
   return (
+    <>
     <div className="container">
-      {/* <h2 className="object" data-value="3">
-        INDUCTION<br />
-      </h2> */}
+      
+      <h2  data-value="3" style={{marginTop:'300px',fontSize:40}}>
+        30<sup>th</sup> June- 2<sup>nd</sup> July
+      </h2>
       <img src={image1} className="object" data-value="-2" alt="" />
       <img src={image2} className="object" data-value="6" alt="" />
       <img src={image3} className="object" data-value="4" alt="" />
@@ -44,6 +46,7 @@ const Landing = () => {
       <img src={image8} className="object" data-value="-9" alt="" />
       <img src={image9} className="object" data-value="-5" alt="" />
     </div>
+    </>
   );
 };
 
