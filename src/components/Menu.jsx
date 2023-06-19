@@ -5,6 +5,8 @@ import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
 import facebooklogo from '../components/Assets/facebook.png'
 import twitterline from  '../components/Assets/twitter-line.png'
 import instagramline from '../components/Assets/instagram-line.png'
+// import '../fontface.css';
+
 
 const Menu = () => {
     return (
@@ -21,7 +23,7 @@ const Menu = () => {
                 <div className="menu-item1-2"> <h1 className={"Home"}> ABOUT US</h1></div>
                 <div className="menu-item1-3"> <h1 className={"Home"}> LOCATION</h1> </div>
                 <div className="menu-item1-4">
-                    <div className="menu-item1-4-1"> <h3 className={"FAQ"}> FAQ's</h3> </div>
+                    <div className="menu-item1-4-1"> <h3 className={"FAQ"}> FAQs</h3> </div>
                     <div className="menu-item1-4-2"> <h3 className={"Speakers"}> SPEAKERS</h3> </div>
                 </div>
             </div>

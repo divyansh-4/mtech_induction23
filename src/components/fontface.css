@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @font-face {
     font-family: 'custom-mongoose';
     src: url('Assets/Fontspring-DEMO-mongoose-black.otf');
@@ -13,26 +11,4 @@
     src: url("Assets/Fontspring-DEMO-mongoose-mediumitalic.otf");
     src: url("Assets/Fontspring-DEMO-mongoose-regular.otf");
     src: url("Assets/Fontspring-DEMO-mongoose-thin.otf");
-}
-
-body {
-  font-family: "Manrope", sans-serif;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-}
-
-.itl{
-  margin-left: 10px;
-}
-
-.navbar img {
-  margin-top: 10px;
-  margin-right: 15px; /* Adjust the value as needed for the desired spacing */
-}
-
-.right{
-  /*margin-left: 1500px;*/
 }
