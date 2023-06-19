@@ -5,6 +5,8 @@ import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
 import facebooklogo from '../components/Assets/facebook.png'
 import twitterline from  '../components/Assets/twitter-line.png'
 import instagramline from '../components/Assets/instagram-line.png'
+// import '../fontface.css';
+
 
 const Menu = () => {
     return (
