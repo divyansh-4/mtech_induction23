@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'custom-mongoose';
+    src: url('Assets/Fontspring-DEMO-mongoose-black.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-blackitalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bold.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bolditalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-italic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-light.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-lightitalic.otf');
+    src: url("Assets/Fontspring-DEMO-mongoose-medium.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-mediumitalic.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-regular.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-thin.otf");
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +20,179 @@
   }
 
 body{
-    font-family: "Segoe UI", sans-serif;
-    height: 100vh;
+    font-family: "Manrope", sans-serif;
   }
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'custom-mongoose',"Manrope", sans-serif;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.menu-item1{
+    display: grid;
+    background-color: #2D51FD;
+    font-size: xx-large;
+}
+.menu-item1- {
+    display: revert;
+    position: relative;
+    padding: revert;
+    left : 4rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+.menu-item1-1{
+    display: flex;
+    position: relative;
+    align-content: center;
+    height: fit-content;
+}
+
+.logo{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+
+.menu-item1-2{
+    display: flex;
+    position: relative;
+    align-content: center;
+    height: fit-content;
+}
+
+.menu-item1-3{
+    display: flex;
+    position: relative;
+    height: fit-content;
+}
+.menu-item1-4{
+    display: flex;
+    position:relative;
+}
+
+.Home{
+    display: flex;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900;
+    left: 5rem;
+    color: #DCFF02;
+}
+
+.FAQ {
+    display: flex;
+    position: relative;
+    left: 5rem;
+    color: #DCFF02;
+    font-weight: bolder;
+}
+
+.Speakers{
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 10rem;
+    color: #DCFF02;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+.menu-item2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-family: 'custom-mongoose',"Manrope", sans-serif;
+
+}
+
+.menu-item2-1{
+    display: flex;
+    position:relative;
+    background: #FFD0D0;
+    text-decoration-color: #5e1a78;
+    font-size: xxx-large;
+}
+.Schedule{
+    display: flex;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900; /* this is the boldness of the font and this is the maximum limit*/
+    text-shadow: #2D51FD;
+    font-stretch: expanded;
+    text-align: center;
+    left: 5rem;
+    top: 5rem;
+    color: #2D51FD;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.Contact{
+    display: flex;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900;
+    text-align: center;
+    left: 5rem;
+    top: 5rem;
+    color: #BC95F2;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Virtual{
+    display: flex;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900;
+    text-align: center;
+    left: 5rem;
+    top: 5rem;
+    color: #5C2293;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Gallery{
+    display: flex;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900;
+    text-align: center;
+    left: 5rem;
+    top: 5rem;
+    color: #DCFF02;
+    width: fit-content;
+    height: fit-content;
+}
+
+.menu-item2-2{
+    display: flex;
+    position: relative;
+    background: #D6DCFF;
+    text-decoration-color: #5e1a78;
+}
+.menu-item2-3{
+    display: flex;
+    position: relative;
+    background: #FFFFFF;
+}
+.menu-item2-4{
+    display: flex;
+    position: relative;
+    background: #B5B1FE;
+}
+
+

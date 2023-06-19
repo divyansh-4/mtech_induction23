@@ -1,5 +1,5 @@
 import './App.css';
-
+// import '../fontface.css';
 // Installed a new ppm package called react-router-dom
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './components/Landing';
