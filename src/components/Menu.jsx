@@ -17,31 +17,42 @@ const Menu = () => {
     }
 
     return (
-        menut ?(<div className="menu">
-            < div className="menu-item1">
-                <div className="menu-item1-">
-                    <img  className={"logo"} src={iiitdlogo} alt="" />
-                    <img  className={"logo"} src={inductionlogo} alt="" onClick={viewMenu} />
-                    <img  className={"logo"} src={instagramline} alt="" />
-                    <img className={"logo"} src={facebooklogo} alt="" />
-                    <img  className={"logo"} src={twitterline} alt="" />
+        <div className="flex w-screen h-screen mongoose-med ">
+            <div className=" text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
+                <div className="pl-[80px] text-[100px] font-[500]">
+                    <p className={""} onClick={viewMenu}> HOME</p>
                 </div>
-                <div className="menu-item1-1"> <h1 className={"Home"} onClick={viewMenu}> HOME</h1> </div>
-                <div className="menu-item1-2"> <h1 className={"Home"}> ABOUT US</h1></div>
-                <div className="menu-item1-3"> <h1 className={"Home"}> LOCATION</h1> </div>
-                <div className="menu-item1-4">
-                    <div className="menu-item1-4-1"> <h3 className={"FAQ"}> FAQs</h3> </div>
-                    <div className="menu-item1-4-2"> <h3 className={"Speakers"}> SPEAKERS</h3> </div>
+                <div className="pl-[80px] text-[100px] font-[500]">
+                    <p className={""}> ABOUT US</p>
+                </div>
+                <div className="pl-[80px] text-[100px] font-[500]">
+                    <p className={""}> LOCATION</p>
+                </div>
+                <div className="pt-[30px] pl-[80px] flex text-[50px] font-[500]">
+                    <div className="pr-4 ">
+                        <p className={""}> FAQs</p>
+                    </div>
+                    <div className="pl-4">
+                        <p className={""}> SPEAKERS</p>
+                    </div>
                 </div>
             </div>
-            < div className="menu-item2">
-                <div className="menu-item2-1"> <h1 className={"Schedule"}> SCHEDULE</h1> </div>
-                <div className="menu-item2-2"> <h1 className={"Contact"}> CONTACT </h1> </div>
-                <div className="menu-item2-3"> <h1 className={"Virtual"}> VIRTUAL TOUR</h1> </div>
-                <div className="menu-item2-4"> <h1 className={"Gallery"}> GALLERY </h1> </div>
+            <div className=" w-1/2 text-start">
+                <div className="fade-in-slow flex items-center h-1/4 text-[#5e1a78] bg-[#FFD0D0]">
+                    <p className={"pl-[80px] text-[#2D51FD] text-[100px] font-[500]"}> SCHEDULE</p>
+                </div>
+                <div className="fade-in-slow  flex items-center h-1/4 bg-[#D6DCFF] text-[#5e1a78]">
+                    <p className={"pl-[80px] text-[#BC95F2] text-[100px] font-[500]"}> CONTACT </p>
+                </div>
+                <div className="fade-in-slow flex items-center h-1/4 bg-[#FFFFFF]">
+                    <p className={"pl-[80px] text-[#5C2293] text-[100px] font-[500]"}> VIRTUAL TOUR</p>
+                </div>
+                <div className="fade-in-slow flex items-center h-1/4 bg-[#B5B1FE]">
+                    <p className={"pl-[80px] text-[#DCFF02] text-[100px] font-[500]"}> GALLERY </p>
+                </div>
             </div>
 
-        </div>):<Navb />
+        </div>
     );
 };
 export default Menu;

@@ -37,3 +37,15 @@
     transform: rotate(360deg);
   }
 }
+.fade-in-quick {
+  animation: fadeIn 0.5s;
+}
+
+.fade-in-slow {
+  animation: fadeIn 1.2s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
