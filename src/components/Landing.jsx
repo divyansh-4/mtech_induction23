@@ -33,9 +33,9 @@ const Landing = () => {
     <>
     <div className="container">
       
-      <h2  data-value="3" style={{marginTop:'300px',fontSize:40}}>
-        30<sup>th</sup> June- 2<sup>nd</sup> July
-      </h2>
+      <h1 className="date" data-value="3" >
+        30<sup>th</sup> June - 2<sup>nd</sup> July
+      </h1>
       <img src={image1} className="object" data-value="-2" alt="" />
       <img src={image2} className="object" data-value="6" alt="" />
       <img src={image3} className="object" data-value="4" alt="" />

@@ -16,12 +16,13 @@
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: 'custom-mongoose',"Manrope", sans-serif;
 }
 
 .navbar {
   display: flex;
   align-items: center;
+    position: fixed;
 }
 
 .itl{
@@ -34,5 +35,6 @@ body {
 }
 
 .right{
-  margin-left: 1480px;
+    position: absolute;
+  margin-left: 110rem;
 }
