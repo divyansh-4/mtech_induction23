@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'custom-mongoose';
+    src: url('Assets/Fontspring-DEMO-mongoose-black.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-blackitalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bold.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bolditalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-italic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-light.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-lightitalic.otf');
+    src: url("Assets/Fontspring-DEMO-mongoose-medium.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-mediumitalic.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-regular.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-thin.otf");
+}
