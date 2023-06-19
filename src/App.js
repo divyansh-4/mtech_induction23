@@ -4,13 +4,15 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Landing from './components/Landing';
 import Navb from './components/Navb';
+import Welcome from './components/Welcome';
 import Menu from "./components/Menu";
 function App() {
   return (
     <div className="App">
       <Navb />
       <Landing />
-        <Menu />
+        {/* <Menu /> */}
+      <Welcome />
 
     </div>
   );

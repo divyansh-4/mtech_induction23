@@ -1,0 +1,14 @@
+.welcome{
+    height: 1080px;
+    width: 1920px;
+    background-color: #FFD0D0;
+}
+.welcome h1{
+    color: #5C2293;
+}
+.heading{
+    font-family:mon;
+    font-size: 600%;
+    /* margin-top: 40px; */
+    font-weight: 800;
+}
