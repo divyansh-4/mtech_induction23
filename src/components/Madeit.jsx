@@ -1,6 +1,6 @@
 import React from 'react';
 import './Madeit.css';
-import madeitimg from '../components/Assets/Madeit.png';
+import madeitimg from '../components/Assets/Madeit.svg';
 
 const Madeit = () => {
 

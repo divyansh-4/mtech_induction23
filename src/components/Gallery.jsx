@@ -3,11 +3,12 @@ import './Gallery.css';
 import img1 from '../components/Assets/home-bg-1.jpg'
 import img2 from '../components/Assets/home-bg-2.jpg'
 import img3 from '../components/Assets/home-bg-3.jpg'
+import head from '../components/Assets/Gallery.svg'
 const Gallery = () => {
     return (
         <div >
         <div className="gallery">
-            <h1>Gallery</h1>
+            <img src={head} alt="" />
         </div>
         <div className={"tech-slideshow"}>
             <div className="mover-1">
