@@ -25,7 +25,7 @@ export default function Home() {
                     <Speakers />
                     <Madeit />
                     <Gallery />
-                    <Footer />
+                    {/*<Footer />*/}
                 </div>
             }
             {showMenu &&
