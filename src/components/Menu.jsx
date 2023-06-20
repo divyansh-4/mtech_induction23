@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 import './Menu.css';
 import inductionlogo from '../components/Assets/InductionLogo.png';
 import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
@@ -11,6 +12,19 @@ import Navb from './Navb';
 
 
 const Menu = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const [ref, inView] = useInView({
+      triggerOnce: true,
+      rootMargin: '-100px 0px', // Adjust the root margin as needed
+    });
+    const imageRef = useRef(null);
+  
+    useEffect(() => {
+      if (inView) {
+        setIsVisible(true);
+      }
+    }, [inView]);
+  
     const [menut, setToggle] = useState(true);
     function viewMenu(){
       setToggle(!(menut))
@@ -18,17 +32,17 @@ const Menu = () => {
 
     return (
         <div className="flex w-screen h-screen mongoose-med ">
-            <div className=" text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
-                <div className="pl-[80px] text-[100px] font-[500]">
+            <div className="  text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
+                <div className="slide-right pl-[80px] text-[100px] font-[500]">
                     <p className={""} onClick={viewMenu}> HOME</p>
                 </div>
-                <div className="pl-[80px] text-[100px] font-[500]">
+                <div className="slide-right pl-[80px] text-[100px] font-[500]">
                     <p className={""}> ABOUT US</p>
                 </div>
-                <div className="pl-[80px] text-[100px] font-[500]">
+                <div className="slide-right pl-[80px] text-[100px] font-[500]">
                     <p className={""}> LOCATION</p>
                 </div>
-                <div className="pt-[30px] pl-[80px] flex text-[50px] font-[500]">
+                <div className="slide-right pt-[30px] pl-[80px] flex text-[50px] font-[500]">
                     <div className="pr-4 ">
                         <p className={""}> FAQs</p>
                     </div>
