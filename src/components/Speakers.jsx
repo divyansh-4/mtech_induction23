@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Speakers.css'
-import speaker from '../components/Assets/Kenote Speakers.png'
-import speakers from '../components/Assets/speaker.png'
+import speaker from '../components/Assets/Keynote Speakers.svg'
+import speakers from '../components/Assets/Keynote Speakers.svg'
 const Speaker = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [ref, inView] = useInView({
@@ -23,12 +23,12 @@ const Speaker = () => {
         <img src = {speaker} className={"welc"}  alt="welcome" />
   
         <div ref={ref} className={`${isVisible ? "slide-right" : ''}`}>
-      <img
-        ref={imageRef}
-        src={speakers}
-        alt="Your Image"
-        className='pl-[100px]'
-      />
+      {/*<img*/}
+      {/*  ref={imageRef}*/}
+      {/*  src={speakers}*/}
+      {/*  alt="Your Image"*/}
+      {/*  className='pl-[100px]'*/}
+      {/*/>*/}
     </div>
     </div>
     </div>
