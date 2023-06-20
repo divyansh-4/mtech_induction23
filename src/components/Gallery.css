@@ -53,6 +53,11 @@
     animation: moveSlideshow 10s linear infinite;
 }
 
+.h1{
+  width: 100vw;
+
+}
+
 @keyframes moveSlideshow {
   100% {
     transform: translateY(-66.6666%);
