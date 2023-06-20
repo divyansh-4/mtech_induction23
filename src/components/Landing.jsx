@@ -38,7 +38,7 @@ const Landing = () => {
     </div>
     <div className="container">
 
-         
+
           <img src={image1} className="object" data-value="-2" alt="" />
           <img src={image2} className="object" data-value="6" alt="" />
           <img src={image3} className="object" data-value="4" alt="" />
@@ -49,7 +49,6 @@ const Landing = () => {
           <img src={image8} className="object" data-value="-9" alt="" />
           <img src={image9} className="indlogo" data-value="-5" alt="" />
     </div>
-    
     </>
   );
 };
