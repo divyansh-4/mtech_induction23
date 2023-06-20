@@ -4,6 +4,7 @@ import Welcome from "../../components/Welcome";
 import Speakers from "../../components/Speakers";
 import Menu from "../../components/Menu";
 import Landing from "../../components/Landing";
+import Madeit from "../../components/Madeit";
 
 export default function Home() {
     const [showMenu, setShowMenu] = useState(false);
@@ -18,6 +19,7 @@ export default function Home() {
                     <Landing />
                     <Welcome />
                     <Speakers />
+                    <Madeit />
                 </div>
             }
             {showMenu &&
