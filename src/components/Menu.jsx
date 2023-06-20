@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Menu.css';
+import { Link } from "react-scroll";
+
 import inductionlogo from '../components/Assets/InductionLogo.png';
 import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
 import facebooklogo from '../components/Assets/facebook.png'
@@ -47,7 +49,7 @@ const Menu = () => {
                         <p className={""}> FAQs</p>
                     </div>
                     <div className="pl-4">
-                        <p className={""}> SPEAKERS</p>
+                    <Link to="features-section" spy={true} smooth={true} duration={500}><p className={""}> SPEAKERS</p></Link>
                     </div>
                 </div>
             </div>
