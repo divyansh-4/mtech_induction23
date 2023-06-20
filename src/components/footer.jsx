@@ -5,7 +5,7 @@ const footer = () => {
     <div className="footer">
       <div className="iiitd-address">
         <a href="https://www.iiitd.ac.in"><img src={iiitdlogo} alt="iiitd" /></a>
-          <span>Indian Institute of Information Technology, Delhi</span>Industrial Estate, Phase III,Near Govind Puri Metro Station
+          <span>Indraprastha Institute of Information Technology, Delhi</span>Industrial Estate, Phase III,Near Govind Puri Metro Station
         <span>New Delhi, Delhi 110020</span>
       </div>
       <div className="links">
