@@ -21,7 +21,7 @@
 
 import React from 'react'
 import './footer.css'
-import welcomeimg from '../components/Assets/Footer.png'
+import welcomeimg from '../components/Assets/footer.svg'
 const footer = () => {
   return (
     <div className='welcome'>
