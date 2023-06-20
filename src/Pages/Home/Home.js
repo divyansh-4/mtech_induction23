@@ -46,7 +46,7 @@ export default function Home() {
                 <div ref={refGallery}>
                     <Gallery />
                 </div>
-                <Footer />
+                {/*<Footer />*/}
             </div>
         </>
     )
