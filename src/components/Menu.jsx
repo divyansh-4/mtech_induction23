@@ -34,7 +34,7 @@ const Menu = () => {
         <div className="flex w-screen h-screen mongoose-med ">
             <div className="  text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
-                    <a href="https://induction.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
+                    <a href="https://https://mtech-induction23.vercel.app/.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
                 </div>
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
                     <p className={""}> ABOUT US</p>
