@@ -34,13 +34,13 @@ const Menu = () => {
         <div className="flex w-screen h-screen mongoose-med ">
             <div className="  text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
-                    <a href="https://https://mtech-induction23.vercel.app/.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
+                    <a href="https://induction.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
                 </div>
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
-                    <p className={""}> ABOUT US</p>
+                    <a href="https://www.iiitd.ac.in/"><p className={""}> ABOUT US</p></a>
                 </div>
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
-                    <p className={""}> LOCATION</p>
+                    <a href="https://www.google.com/maps/place/Indraprastha+Institute+of+Information+Technology+Delhi/@28.5458541,77.2731762,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3e564daac1d:0x2c582e340e7bc556!8m2!3d28.5458541!4d77.2731762!16s%2Fg%2F11bc5q5mqf?entry=ttu"><p className={""}> LOCATION</p></a>
                 </div>
                 <div className="slide-right pt-[30px] pl-[80px] flex text-[50px] font-[500]">
                     <div className="pr-4 ">
@@ -59,7 +59,7 @@ const Menu = () => {
                     <a href="https://www.iiitd.ac.in/contact"><p className={"pl-[80px] text-[#BC95F2] text-[100px] font-[500]"}> CONTACT </p></a>
                 </div>
                 <div className="fade-in-slow flex items-center h-1/4 bg-[#FFFFFF]">
-                    <p className={"pl-[80px] text-[#5C2293] text-[100px] font-[500]"}> VIRTUAL TOUR</p>
+                    <a href="https://www.youtube.com/watch?v=YY65qJCTfO8"><p className={"pl-[80px] text-[#5C2293] text-[100px] font-[500]"}> VIRTUAL TOUR</p></a>
                 </div>
                 <div className="fade-in-slow flex items-center h-1/4 bg-[#B5B1FE]">
                     <p className={"pl-[80px] text-[#DCFF02] text-[100px] font-[500]"}> GALLERY </p>

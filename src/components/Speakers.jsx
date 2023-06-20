@@ -18,7 +18,7 @@ const Speaker = () => {
   }, [inView]);
 
   return (
-    <div className='speak'>
+    <div id='speakers' className='speak'>
         <img src = {speaker} className={"welc"}  alt="welcome" />
   
         <div ref={ref} className={`${isVisible ? "slide-right" : ''}`}>
