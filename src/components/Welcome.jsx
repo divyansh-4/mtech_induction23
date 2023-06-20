@@ -1,6 +1,6 @@
 import React from 'react'
-import './Welcome.css'
 import welcomeimg from '../components/Assets/Welcome.png'
+
 const Welcome = () => {
   return (
     <div className='welcome'>
