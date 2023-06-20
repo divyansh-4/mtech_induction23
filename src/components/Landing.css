@@ -26,6 +26,9 @@
     background-repeat: repeat;
     background-position: center;
   }
+  .indlogo{
+    width: 50%;
+  }
   
   .container{
     position: relative;
