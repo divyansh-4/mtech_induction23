@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Menu.css';
+import { Link } from "react-scroll";
+
 import inductionlogo from '../components/Assets/InductionLogo.png';
 import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
 import facebooklogo from '../components/Assets/facebook.png'
@@ -11,7 +13,7 @@ import Navb from './Navb';
 // import '../fontface.css';
 
 
-const Menu = () => {
+const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
     const [isVisible, setIsVisible] = useState(false);
     const [ref, inView] = useInView({
       triggerOnce: true,
@@ -46,7 +48,7 @@ const Menu = () => {
                     <div className="pr-4 ">
                         <p className={""}> FAQs</p>
                     </div>
-                    <div className="pl-4">
+                    <div className="pl-4 cursor-pointer" onClick={()=> {closeMenu(false); scrollToSpeaker()}}>
                         <p className={""}> SPEAKERS</p>
                     </div>
                 </div>
@@ -61,7 +63,7 @@ const Menu = () => {
                 <div className="fade-in-slow flex items-center h-1/4 bg-[#FFFFFF]">
                     <a href="https://www.youtube.com/watch?v=YY65qJCTfO8"><p className={"pl-[80px] text-[#5C2293] text-[100px] font-[500]"}> VIRTUAL TOUR</p></a>
                 </div>
-                <div className="fade-in-slow flex items-center h-1/4 bg-[#B5B1FE]">
+                <div className="fade-in-slow flex items-center h-1/4 bg-[#B5B1FE] cursor-pointer" onClick={()=> {closeMenu(false); scrollToGallery()}}>
                     <p className={"pl-[80px] text-[#DCFF02] text-[100px] font-[500]"}> GALLERY </p>
                 </div>
             </div>

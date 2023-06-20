@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-import iiit from '../parallaxElems/iiitdl.png';
-import ind from '../parallaxElems/Vector.png';
-import fb from '../parallaxElems/facebook.png';
+import iiit from '../components/Assets/iiitdl.svg';
+import ind from '../components/Assets/ind.svg';
+import fb from '../components/Assets/lucide_linkedin.svg';
 import './Navb.css';
-import inductionlogo from '../components/Assets/InductionLogo.png';
-import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
-import facebooklogo from '../components/Assets/facebook.png';
 import twitterline from '../components/Assets/twitter-line.png';
-import instagramline from '../components/Assets/instagram-line.png';
+import instagramline from '../components/Assets/instagram-line.svg';
 import Menu from './Menu';
 import Landing from './Landing';
 
