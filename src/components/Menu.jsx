@@ -34,7 +34,7 @@ const Menu = () => {
         <div className="flex w-screen h-screen mongoose-med ">
             <div className="  text-start w-1/2 bg-[#2D51FD] pt-[150px] text-[#DCFF02]">
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
-                    <p className={""} onClick={viewMenu}> HOME</p>
+                    <a href="https://induction.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
                 </div>
                 <div className="slide-right pl-[80px] text-[100px] font-[500]">
                     <p className={""}> ABOUT US</p>
@@ -56,7 +56,7 @@ const Menu = () => {
                     <p className={"pl-[80px] text-[#2D51FD] text-[100px] font-[500]"}> SCHEDULE</p>
                 </div>
                 <div className="fade-in-slow  flex items-center h-1/4 bg-[#D6DCFF] text-[#5e1a78]">
-                    <p className={"pl-[80px] text-[#BC95F2] text-[100px] font-[500]"}> CONTACT </p>
+                    <a href="https://www.iiitd.ac.in/contact"><p className={"pl-[80px] text-[#BC95F2] text-[100px] font-[500]"}> CONTACT </p></a>
                 </div>
                 <div className="fade-in-slow flex items-center h-1/4 bg-[#FFFFFF]">
                     <p className={"pl-[80px] text-[#5C2293] text-[100px] font-[500]"}> VIRTUAL TOUR</p>

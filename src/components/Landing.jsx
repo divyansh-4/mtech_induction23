@@ -32,8 +32,8 @@ const Landing = () => {
   return (
     <>
     <div className='flex justify-center items-center' >
-       <p className="absolute text-[#fff] text-[100px] font-[500] text-center pt-[1360px]" data-value="3" >
-            30<sup>th</sup> June - 2<sup>nd</sup> July
+       <p className="absolute text-[#fff] text-[80px] font-[500] text-center pt-[1360px]" data-value="3" >
+            30<sup>th</sup> June - 2<sup>nd</sup> July 2023
        </p>
     </div>
     <div className="container">
