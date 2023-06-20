@@ -6,6 +6,9 @@ import Menu from "../../components/Menu";
 import Landing from "../../components/Landing";
 import Madeit from "../../components/Madeit";
 import Gallery from "../../components/Gallery";
+import Footer from "../../components/footer";
+
+
 
 export default function Home() {
     const [showMenu, setShowMenu] = useState(false);
@@ -22,6 +25,7 @@ export default function Home() {
                     <Speakers />
                     <Madeit />
                     <Gallery />
+                    <Footer />
                 </div>
             }
             {showMenu &&
