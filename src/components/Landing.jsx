@@ -31,11 +31,14 @@ const Landing = () => {
 
   return (
     <>
+    <div className='flex justify-center items-center' >
+       <p className="absolute text-[#fff] text-[100px] font-[500] text-center pt-[1360px]" data-value="3" >
+            30<sup>th</sup> June - 2<sup>nd</sup> July
+       </p>
+    </div>
     <div className="container">
 
-          <p className="text-[#fff] text-[100px] font-[500] text-center pt-[350px] pl-[250px]" data-value="3" >
-            30<sup>th</sup> June - 2<sup>nd</sup> July
-          </p>
+         
           <img src={image1} className="object" data-value="-2" alt="" />
           <img src={image2} className="object" data-value="6" alt="" />
           <img src={image3} className="object" data-value="4" alt="" />
@@ -46,6 +49,7 @@ const Landing = () => {
           <img src={image8} className="object" data-value="-9" alt="" />
           <img src={image9} className="object" data-value="-5" alt="" />
     </div>
+    
     </>
   );
 };
