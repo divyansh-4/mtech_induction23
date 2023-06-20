@@ -5,6 +5,7 @@ import Speakers from "../../components/Speakers";
 import Menu from "../../components/Menu";
 import Landing from "../../components/Landing";
 import Madeit from "../../components/Madeit";
+import Gallery from "../../components/Gallery";
 
 export default function Home() {
     const [showMenu, setShowMenu] = useState(false);
@@ -20,6 +21,7 @@ export default function Home() {
                     <Welcome />
                     <Speakers />
                     <Madeit />
+                    <Gallery />
                 </div>
             }
             {showMenu &&
