@@ -1,19 +1,15 @@
 
-.slide-right, .slide-left {
-    width: 100%;
+
+.slide-right {
+  width: 100%;
+  animation: slide-right 3s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
   }
-  
-  /***** Slide Right *****/
-  .slide-right {
-    animation: 3s slide-right;
-    /* animation: 3s slide-left; */
+  to {
+    margin-left: 0%;
   }
-  @keyframes slide-right {
-    from {
-      margin-left: -100%;
-    }
-    to {
-      margin-left: 0%;
-    }
-  }
-  
+}
