@@ -2,7 +2,7 @@
 
 .slide-right {
   width: 100%;
-  animation: slide-right 0s;
+  animation: slide-right 3s;
 }
 
 @keyframes slide-right {
