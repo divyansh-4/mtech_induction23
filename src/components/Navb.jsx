@@ -18,13 +18,13 @@ const Navb = ({menuControl, menuState}) => {
             <img className={'mr-2 w-[80px] h-[30px]'}  src={iiit} alt="iiit" />
             <img className={'mx-2 sm:w-[100px] w-[70px] h-[30px]'}  src={ind} alt="ind" />
             <a href="https://www.instagram.com/sc.iiitd/?hl=en">
-              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[15px] sm:h-[30px] h-[15px]'}  src={instagramline} alt="fb" />
+              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'}  src={instagramline} alt="fb" />
             </a>
             <a href="https://www.facebook.com/IIITDelhi/">
-              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[15px] sm:h-[30px] h-[15px]'}  src={fb} alt="fb" />
+              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'}  src={fb} alt="fb" />
             </a>
             <a href="https://twitter.com/IIITDelhi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[15px] sm:h-[30px] h-[15px]'} src={twitterline} alt="fb" />
+              <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'} src={twitterline} alt="fb" />
             </a>
           </div>
           {!showMenu ?
