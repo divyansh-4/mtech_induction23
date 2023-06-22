@@ -45,7 +45,7 @@ const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
                     <a href="https://www.google.com/maps/place/Indraprastha+Institute+of+Information+Technology+Delhi/@28.5458541,77.2731762,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce3e564daac1d:0x2c582e340e7bc556!8m2!3d28.5458541!4d77.2731762!16s%2Fg%2F11bc5q5mqf?entry=ttu"><p className={""}> LOCATION</p></a>
                 </div>
                 <div className="slide-right sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px] font-[500]">
-                    <p className={""}> ICC</p>
+                    <a href="https://iiitd.ac.in/life/discipline-grievance/anti-sexual-harassment-committee"><p className={""}> ICC</p></a>
                 </div>
                 <div className="slide-right sm:pl-[80px] pl-[20px] flex sm:text-[50px] text-[20px] font-[500]">
                     <div className="pr-4 ">
