@@ -16,10 +16,10 @@ export default function Home() {
     const [showMenu, setShowMenu] = useState(false);
 
     const scrollToSpeaker = () => {
-        refSpeaker.current.scrollIntoView({ behavior: 'smooth' });
+        refSpeaker.current.scrollIntoView(true);
     }
     const scrollToGallery = () => {
-        refGallery.current.scrollIntoView({ behavior: 'smooth' });
+        refGallery.current.scrollIntoView(true);
     }
 
     return(
