@@ -37,11 +37,11 @@ const Navb = ({menuControl, menuState}) => {
                   </a>
                   {!showMenu ?
                       <div className={'flex justify-end sm:pr-[50px] pr-[10px] pl-[20px]'} >
-                          <img onClick={()=>{menuControl(true); setShowMenu(true)}} className={'h-[30px] w-[40px]'} src={require("../parallaxElems/menu.png")} alt="menu" />
+                          <img onClick={()=>{menuControl(true); setShowMenu(true)}} className={'sm:h-[30px] h-[20px] sm:w-[40px] w-[25px]'} src={require("../parallaxElems/menu.png")} alt="menu" />
                       </div>
                       :
                       <div className={'flex justify-end sm:pr-[50px] pr-[10px] pl-[20px]'} >
-                          <img onClick={()=>{menuControl(false); setShowMenu(false)}} className={'h-[30px] w-[30px]'} src={require("../components/Assets/close.png")} alt="close" />
+                          <img onClick={()=>{menuControl(false); setShowMenu(false)}} className={'sm:h-[30px] h-[20px] sm:w-[30px] w-[20px]'} src={require("../components/Assets/close.png")} alt="close" />
                       </div>
                   }
               </div>
