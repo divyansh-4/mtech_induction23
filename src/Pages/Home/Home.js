@@ -24,7 +24,7 @@ export default function Home() {
 
     return(
         <>
-            {!showMenu &&<div className={'z-50 absolute w-screen'}>
+            {!showMenu &&<div className={'z-50 sticky top-0 absolute w-screen'}>
                 <Navb menuControl={setShowMenu} menuState={showMenu}/>
             </div>
             }
