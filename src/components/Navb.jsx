@@ -23,7 +23,7 @@ const Navb = ({menuControl, menuState}) => {
                   <img className={'sm:mx-2 mx-1 sm:w-[60px] sm:h-[30px] w-[30px] h-[20px]'}  src={g20} alt="g20" />
                   <img className={'sm:mx-2 mx-1 sm:w-[30px] sm:h-[30px] w-[30px] h-[20px]'}  src={nss} alt="nss" />
                   <img className={'sm:mx-2 mx-1 sm:w-[80px] sm:h-[30px] w-[30px] h-[20px]'}  src={iiit} alt="iiit" />
-                  <img className={'sm:mx-2 mx-1 sm:w-[100px] w-[50px] sm:h-[30px] h-[20px]'}  src={ind} alt="ind" />
+                  <img className={'sm:mx-2 mx-1 sm:w-[100px] w-[30px] sm:h-[30px] h-[20px]'}  src={ind} alt="ind" />
               </div>
               <div className={'w-1/2 flex justify-end'}>
                   <a href="https://www.instagram.com/sc.iiitd/?hl=en">
@@ -36,11 +36,11 @@ const Navb = ({menuControl, menuState}) => {
                       <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'} src={twitterline} alt="fb" />
                   </a>
                   {!showMenu ?
-                      <div className={'flex justify-end sm:pr-[50px] pr-[20px] pl-[20px]'} >
+                      <div className={'flex justify-end sm:pr-[50px] pr-[10px] pl-[20px]'} >
                           <img onClick={()=>{menuControl(true); setShowMenu(true)}} className={'h-[30px] w-[40px]'} src={require("../parallaxElems/menu.png")} alt="menu" />
                       </div>
                       :
-                      <div className={'flex justify-end sm:pr-[50px] pr-[20px] pl-[20px]'} >
+                      <div className={'flex justify-end sm:pr-[50px] pr-[10px] pl-[20px]'} >
                           <img onClick={()=>{menuControl(false); setShowMenu(false)}} className={'h-[30px] w-[30px]'} src={require("../components/Assets/close.png")} alt="close" />
                       </div>
                   }
