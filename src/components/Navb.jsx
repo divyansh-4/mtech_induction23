@@ -29,7 +29,7 @@ const Navb = ({menuControl, menuState}) => {
                   <a href="https://www.instagram.com/sc.iiitd/?hl=en">
                       <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'}  src={instagramline} alt="fb" />
                   </a>
-                  <a href="https://www.facebook.com/IIITDelhi/">
+                  <a href="https://in.linkedin.com/school/iiit-delhi/">
                       <img className={'sm:mx-2 mx-1 sm:w-[30px] w-[20px] sm:h-[30px] h-[20px]'}  src={fb} alt="fb" />
                   </a>
                   <a href="https://twitter.com/IIITDelhi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
