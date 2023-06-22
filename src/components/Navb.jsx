@@ -14,7 +14,7 @@ const Navb = ({menuControl, menuState}) => {
   return (
     <>
       <div className='flex sm:pt-5 pt-2'>
-          <div className={'pl-10 flex w-1/2 justify-start'}>
+          <div className={'sm:pl-10 pl-3 flex w-1/2 justify-start'}>
             <img className={'mr-2 w-[80px] h-[30px]'}  src={iiit} alt="iiit" />
             <img className={'mx-2 sm:w-[100px] w-[70px] h-[30px]'}  src={ind} alt="ind" />
             <a href="https://www.instagram.com/sc.iiitd/?hl=en">
