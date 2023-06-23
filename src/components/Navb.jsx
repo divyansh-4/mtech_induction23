@@ -23,7 +23,7 @@ const Navb = ({menuControl, menuState}) => {
                   <img className={'sm:mx-2 mx-1 sm:w-[60px] sm:h-[30px] w-[30px] h-[20px]'}  src={g20} alt="g20" />
                   <img className={'sm:mx-2 mx-1 sm:w-[30px] sm:h-[30px] w-[30px] h-[20px]'}  src={nss} alt="nss" />
                   <a href="https://www.iiitd.ac.in/"><img className={'sm:mx-2 mx-1 sm:w-[80px] sm:h-[30px] w-[30px] h-[20px]'}  src={iiit} alt="iiit" /></a>
-                  <a href="induction.iiitd.edu.in"><img className={'sm:mx-2 mx-1 sm:w-[100px] w-[30px] sm:h-[30px] h-[20px]'}  src={ind} alt="ind" /></a>
+                  <a href="https://induction.iiitd.edu.in/"><img className={'sm:mx-2 mx-1 sm:w-[100px] w-[30px] sm:h-[30px] h-[20px]'}  src={ind} alt="ind" /></a>
               </div>
               <div className={'w-1/2 flex justify-end'}>
                   <a href="https://www.instagram.com/sc.iiitd/?hl=en" target="_blank">
