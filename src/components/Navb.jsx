@@ -16,7 +16,7 @@ const Navb = ({menuControl, menuState}) => {
 
   return (
     <>
-      <div className='flex sm:pt-5 pt-2'>
+      <div className='flex sm:pt-5 pt-2 bg-[#5C2293] pb-[10px]'>
           <div className={'flex sm:pl-5 pl-3 w-full'}>
               <div className={'w-1/2 flex justify-start'}>
                   <img className={'sm:mr-2 mr-1 sm:w-[50px] sm:h-[30px] w-[30px] h-[20px]'}  src={azad} alt="azad" />
