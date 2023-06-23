@@ -1,7 +1,7 @@
-.gallery{
+.gallery {
   height: 25vh;
   font-weight: 900;
-  font-family: 'custom-mongoose',"Manrope", sans-serif;
+  font-family: 'custom-mongoose', "Manrope", sans-serif;
   font-size: 8rem;
   color: white;
 }
@@ -18,44 +18,27 @@
   transform: translate3d(0, 0, 0);
 }
 
-/*.tech-slideshow > div {*/
-/*  height: 200px;*/
-/*  width: 100vw;*/
-/*  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);*/
-/*  position: absolute;*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  height: 100%;*/
-/*  transform: translate3d(0, 0, 0);*/
-/*}*/
-/*.tech-slideshow .mover-1 {*/
-/*  animation: moveSlideshow 12s alternate-reverse infinite;*/
-/*}*/
-/*.tech-slideshow .mover-2 {*/
-/*  opacity: 0;*/
-/*  transition: opacity 0.5s ease-out;*/
-/*  background-position: 0 -200px;*/
-/*  animation: moveSlideshow 15s alternate-reverse infinite;*/
-/*}*/
-/*.tech-slideshow:hover .mover-2 {*/
-/*  opacity: 1;*/
-/*}*/
-.mover-1{
-    animation: moveSlideshow 12s linear infinite;
-
+.mover-1 {
+  animation: moveSlideshow 30s linear infinite;
 }
-.mover-2{
 
-    animation: moveSlideshow 12s linear reverse infinite;
+.mover-2 {
+  animation: moveSlideshow 36s linear reverse infinite;
 }
-.mover-3{
+
+.mover-3 {
   margin-left: auto;
-    animation: moveSlideshow 12s linear infinite;
+  animation: moveSlideshow 30s linear infinite;
 }
 
-.h1{
-  width: 100vw;
+.mover-1:hover,
+.mover-2:hover,
+.mover-3:hover {
+  animation-play-state: paused; /* Pauses the animation on hover */
+}
 
+.h1 {
+  width: 100vw;
 }
 
 @keyframes moveSlideshow {
