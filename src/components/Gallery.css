@@ -41,16 +41,16 @@
 /*  opacity: 1;*/
 /*}*/
 .mover-1{
-    animation: moveSlideshow 10s linear infinite;
+    animation: moveSlideshow 12s linear infinite;
 
 }
 .mover-2{
 
-    animation: moveSlideshow 10s linear reverse infinite;
+    animation: moveSlideshow 12s linear reverse infinite;
 }
 .mover-3{
   margin-left: auto;
-    animation: moveSlideshow 10s linear infinite;
+    animation: moveSlideshow 12s linear infinite;
 }
 
 .h1{
