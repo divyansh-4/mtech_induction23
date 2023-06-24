@@ -25,13 +25,13 @@ export default function Home() {
     return(
         <>
             {!showMenu &&<div className={'z-50 sticky top-0 absolute w-screen'}>
-                <Navb menuControl={setShowMenu} menuState={showMenu}/>
+                <Navb menuControl={setShowMenu} menuState={showMenu} bg={'bg-[#F8F3E3]'}/>
             </div>
             }
             {showMenu &&
                 <div className={'z-50 sticky top-0'}>
                     <div className={'absolute w-screen'}>
-                        <Navb menuControl={setShowMenu} menuState={showMenu}/>
+                        <Navb menuControl={setShowMenu} menuState={showMenu} bg={''}/>
                     </div>
                     <Menu scrollToSpeaker={scrollToSpeaker} closeMenu={setShowMenu} scrollToGallery={scrollToGallery}/>
                 </div>
