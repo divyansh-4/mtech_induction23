@@ -25,7 +25,7 @@ export default function Home() {
     return(
         <>
             {!showMenu &&<div className={'z-50 sticky top-0 absolute w-screen'}>
-                <Navb menuControl={setShowMenu} menuState={showMenu} bg={'bg-[#F8F3E3]'}/>
+                <Navb menuControl={setShowMenu} menuState={showMenu} bg={'bg-[#5C2293]'}/>
             </div>
             }
             {showMenu &&
