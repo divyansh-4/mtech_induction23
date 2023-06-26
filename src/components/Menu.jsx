@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Menu.css';
-import { Link } from "react-scroll";
+import {Link} from "react-router-dom";
 
 import inductionlogo from '../components/Assets/InductionLogo.png';
 import iiitdlogo from '../components/Assets/iiitd white logo 2.png';
@@ -58,7 +58,7 @@ const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
             </div>
             <div className=" w-1/2 text-start">
                 <div className="fade-in-slow flex items-center h-1/4 text-[#5e1a78] bg-[#FFD0D0]">
-                    <p className={"sm:pl-[80px] pl-[20px] text-[#2D51FD] sm:text-[100px] text-[50px] font-[500]"}> SCHEDULE</p>
+                <Link to={'/schedule'}><p className={"sm:pl-[80px] pl-[20px] text-[#2D51FD] sm:text-[100px] text-[50px] font-[500]"}> SCHEDULE</p></Link>
                 </div>
                 <div className="fade-in-slow  flex items-center h-1/4 bg-[#D6DCFF] text-[#5e1a78]">
                 <a href="https://iiitd.ac.in/life/discipline-grievance/anti-sexual-harassment-committee" target='_blank'><p className={"sm:pl-[80px] pl-[20px] text-[#BC95F2] sm:text-[100px] text-[50px] font-[500]"}> ICC</p></a>
