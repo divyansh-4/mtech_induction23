@@ -49,7 +49,7 @@ const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
                 </div>
                 <div className="slide-right sm:pl-[80px] pl-[20px] flex sm:text-[50px] text-[20px] font-[500]">
                     <div className="pr-4 ">
-                        <p className={""}> FAQs</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1gUOvmtc-VCcri8zQN6XaYa7xqAd5jV0g5GGsBQA4DvY/edit?usp=sharing" target='_blank'><p className={""}> FAQs</p></a>
                     </div>
                     <div className="pl-4 cursor-pointer" onClick={()=> {closeMenu(false); scrollToSpeaker()}}>
                         <p className={""}> SPEAKERS</p>

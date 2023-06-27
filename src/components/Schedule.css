@@ -1,0 +1,25 @@
+.carousel-container .rec-arrow {
+    margin-top: -700px; /* Adjust the value as per your needs */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: white;
+    font-size: 94px; /* Adjust the value as per your needs */
+  }
+  .carousel-container .rec-arrow:hover {
+    font-size: 124px; /* Adjust the value as per your needs */
+  }
+  
+  
+  .carousel-container {
+    position: relative;
+    z-index: 1;
+  }
+  .carousel-container .rec-arrow-left {
+    left: 150px; /* Adjust the value as per your needs */
+  }
+  
+  .carousel-container .rec-arrow-right {
+    right: 150px; /* Adjust the value as per your needs */
+  }
