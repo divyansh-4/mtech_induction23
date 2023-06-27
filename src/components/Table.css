@@ -14,8 +14,7 @@
     src: url("Assets/Fontspring-DEMO-mongoose-thin.otf");
 }
 body{
-    background-color: #FFD0D0;
-    background-image: url("../components/Assets/schedule.svg");
+
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -23,7 +22,7 @@ body{
     justify-content: center;
     flex-direction: row;
     font-family: "","Manrope", sans-serif;
-    margin-top: 15rem;
+    /*margin-top: 15rem;*/
     /*background-image: url("../bgassets/P.svg"),url("../bgassets/H.svg"),url("../bgassets/D.svg"),url("../bgassets/M.svg");*/
 
 
@@ -31,6 +30,11 @@ body{
 }
 
 
+
+.tableclass{
+    background-image: url("../components/Assets/schedule.svg");
+    width: 100vw;
+}
 .leftrow{
     display: flex;
     flex-direction: column;
@@ -56,26 +60,9 @@ body{
 
 }
 
-.backgroundimg{
-    position: absolute;
-    z-index: 1;
-    width: 30vw;
-    height: 30vh;
-    /*opacity: 0.1;*/
-}
-.P{
-    position: -ms-device-fixed;
-    left: 25rem;
+.schedulebg{
+    z-index: 3;
+    top : 20rem;
+    height: fit-content(100%);
 }
 
-.H{
-    position: relative;
-    left: 50rem;
-    top: -40rem
-}
-
-.D{
-    position: relative;
-    left: 90rem;
-    top: -25rem;
-}
