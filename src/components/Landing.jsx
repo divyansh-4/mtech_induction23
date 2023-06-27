@@ -31,7 +31,7 @@ const Landing = () => {
   }, []);
 
   return (
-    <>
+    <div >
     <img src={bg2023} alt="2023-background" className='center-panning' />
     <div className='flex justify-center items-center' >
        {/* <p className="absolute text-[#fff] text-[80px] font-[500] text-center pt-[1360px]" data-value="3" >
@@ -49,7 +49,7 @@ const Landing = () => {
           <img src={image8} className="object" data-value="-9" alt="" />
           <img src={image9} className="indlogo" data-value="-5" alt="" />
     </div>
-    </>
+    </div>
   );
 };
 
