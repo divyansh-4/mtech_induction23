@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: 'custom-mongoose';
+    src: url('Assets/Fontspring-DEMO-mongoose-black.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-blackitalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bold.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-bolditalic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-italic.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-light.otf');
+    src: url('Assets/Fontspring-DEMO-mongoose-lightitalic.otf');
+    src: url("Assets/Fontspring-DEMO-mongoose-medium.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-mediumitalic.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-regular.otf");
+    src: url("Assets/Fontspring-DEMO-mongoose-thin.otf");
+}
+body{
+    background-color: #FFD0D0;
+    background-image: url("../components/Assets/schedule.svg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "","Manrope", sans-serif;
+    margin-top: 15rem;
+    /*background-image: url("../bgassets/P.svg"),url("../bgassets/H.svg"),url("../bgassets/D.svg"),url("../bgassets/M.svg");*/
+
+
+
+}
+
+
+.leftrow{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 15vh;
+    width: 50vw;
+    justify-content: center;
+    background: transparent;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #2D51FD;
+}
+
+
+.rightrow{
+    /*display: flex;*/
+    flex-direction: row;
+    position: relative;
+    height: 15vh;
+    width: 50vw;
+    font-size: 1.5rem;
+    color: #5C2293;
+
+}
+
+.backgroundimg{
+    position: absolute;
+    z-index: 1;
+    width: 30vw;
+    height: 30vh;
+    /*opacity: 0.1;*/
+}
+.P{
+    position: -ms-device-fixed;
+    left: 25rem;
+}
+
+.H{
+    position: relative;
+    left: 50rem;
+    top: -40rem
+}
+
+.D{
+    position: relative;
+    left: 90rem;
+    top: -25rem;
+}

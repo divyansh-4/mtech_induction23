@@ -1,10 +1,10 @@
 import React from 'react';
 import './Table.css'
-import P from '../Pages/bgassets/P.svg'
-import H from '../Pages/bgassets/H.svg'
-import M from '../Pages/bgassets/M.svg'
-import T from '../Pages/bgassets/T.svg'
-import D from '../Pages/bgassets/D.svg'
+import P from '../bgassets/P.svg'
+import H from '../bgassets/H.svg'
+import M from '../bgassets/M.svg'
+import T from '../bgassets/T.svg'
+import D from '../bgassets/D.svg'
 
 const Table = ({ sched }) => {
   return (
@@ -22,13 +22,7 @@ const Table = ({ sched }) => {
         })}
       </tbody>
     </table>
-        <div className="background">
-            <img src={P} className="P" alt="P" />
-            <img src={H} className="H" alt="H" />
-            <img src={M} className="M" alt="M" />
-            <img src={T} className="T" alt="T" />
-            <img src={D} className="D" alt="D" />
-        </div>
+
         </div>
   );
 };

@@ -8,7 +8,7 @@ import Welcome from './components/Welcome';
 import Menu from "./components/Menu";
 import Speakers from "./components/Speakers";
 import Home from "./Pages/Home/Home";
-import Schedule from './Pages/Schedule/Schedule';
+import Schedule from './components/Schedule';
 function App() {
   return (
     <div className="App">
