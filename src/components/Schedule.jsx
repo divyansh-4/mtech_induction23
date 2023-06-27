@@ -12,24 +12,8 @@ import './Schedule.css'
 const API = "https://sheet.best/api/sheets/359e1172-7650-49b5-a418-8caaaf5f5ef3";
 
 const Schedule = () => {
-  const [sched, setSched] = useState([]);
   const [showMenu, setShowMenu] = useState(false);
 
-  // const fetchUsers = async (url) => {
-  //   try {
-  //     const res = await fetch(url);
-  //     const data = await res.json();
-  //     if (data.length > 0) {
-  //       setSched(data);
-  //     }
-  //   } catch (e) {
-  //     console.error(e);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   fetchUsers(API);
-  // }, []);
 
   const scrollToSpeaker = () => {
     // Define the logic to scroll to the speaker
