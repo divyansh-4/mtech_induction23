@@ -21,7 +21,7 @@ body{
     align-content: center;
     justify-content: center;
     flex-direction: row;
-    font-family: "","Manrope", sans-serif;
+    font-family: "custom-mongoose","Manrope", sans-serif;
     /*margin-top: 15rem;*/
     /*background-image: url("../bgassets/P.svg"),url("../bgassets/H.svg"),url("../bgassets/D.svg"),url("../bgassets/M.svg");*/
 
