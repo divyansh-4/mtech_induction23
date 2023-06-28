@@ -42,8 +42,8 @@ const Table1 = () => {
           const { time, event } = day;
           return (
             <tr className="schedule table " key={index}>
-              <td className='leftrow sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px]   '>{time}</td>
-              <td className='rightrow sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px]  '>{event}</td>
+              <td className='leftrow    '>{time}</td>
+              <td className='rightrow   '>{event}</td>
             </tr>
           );
         })}
