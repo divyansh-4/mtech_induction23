@@ -5,10 +5,10 @@
     transform: translateY(-50%);
     z-index: 2;
     color: white;
-    font-size: 94px; /* Adjust the value as per your needs */
+    font-size: 5rem; /* Adjust the value as per your needs */
   }
   .carousel-container .rec-arrow:hover {
-    font-size: 124px; /* Adjust the value as per your needs */
+    font-size: 5rem; /* Adjust the value as per your needs */
   }
   
   
