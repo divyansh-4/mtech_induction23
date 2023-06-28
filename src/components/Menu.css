@@ -20,7 +20,8 @@
   }
 
 body{
-    font-family: "Manrope", sans-serif;
+    font-family: "custom-mongoose", sans-serif;
+    font-width: 900;
     
   }
 
@@ -31,7 +32,7 @@ body{
     width: 100vw;
     font-family: 'custom-mongoose',"Manrope", sans-serif;
     font-size: larger;
-    font-weight: bold;
+    font-weight: 900;
 
 }
 
