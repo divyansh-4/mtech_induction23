@@ -33,7 +33,7 @@ const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
     }
 
     return (
-        <div className="flex min-w-screen h-screen mongoose-med ">
+        <div className="flex min-w-screen h-screen custom-mangoose font-black ">
             <div className=" text-start w-1/2 bg-[#2D51FD] sm:pt-[50px] pt-[100px] text-[#DCFF02]">
                 <div className="slide-right sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px] font-[500]">
                     <a href="https://induction.iiitd.edu.in/" target='_blank'><p className={""} onClick={viewMenu}> HOME</p></a>
