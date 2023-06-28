@@ -17,7 +17,7 @@ code {
 }
 
 
-/* Replicate from here */
+ Replicate from here
 @font-face {
   font-family: "Mongoose-Medium";
   src: local("Mongoose-Medium"),
@@ -27,3 +27,17 @@ code {
   font-family: "Mongoose-Medium";
 }
 
+@font-face {
+    font-family: 'custom-mongoose';
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-black.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-blackitalic.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-bold.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-bolditalic.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-italic.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-light.otf');
+    src: url('./components/Assets/Fontspring-DEMO-mongoose-lightitalic.otf');
+    src: url("./components/Assets/Fontspring-DEMO-mongoose-medium.otf");
+    src: url("./components/Assets/Fontspring-DEMO-mongoose-mediumitalic.otf");
+    src: url("./components/Assets/Fontspring-DEMO-mongoose-regular.otf");
+    src: url("./components/Assets/Fontspring-DEMO-mongoose-thin.otf");
+}
