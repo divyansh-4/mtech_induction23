@@ -1,7 +1,9 @@
 import './App.css';
 // import '../fontface.css';
 // Installed a new ppm package called react-router-dom
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+
 import Landing from './components/Landing';
 import Navb from './components/Navb';
 import Welcome from './components/Welcome';
@@ -13,17 +15,14 @@ import Team from './Pages/Home/Team';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <div className={''}>
-          <Routes>
-            <Route path={'/'} element={<Home />} />
-            <Route path={'/schedule'} element={<Schedule />} />
-            {/* <Route path={'/team'} element={<Team />} /> */}
-          </Routes>
-        </div>
-      </BrowserRouter>
+      <HashRouter>
+        <Routes>
+          <Route path={'/'} element={<Home />} />
+          <Route path={'/schedule'} element={<Schedule />} />
+          {/* <Route path={'/team'} element={<Team />} /> */}
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
-
 export default App;
