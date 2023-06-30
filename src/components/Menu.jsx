@@ -36,7 +36,7 @@ const Menu = ({scrollToSpeaker, closeMenu, scrollToGallery}) => {
         <div className="flex min-w-screen h-screen  ">
             <div className=" text-start w-1/2 bg-[#2D51FD] sm:pt-[50px] pt-[100px] text-[#DCFF02]">
                 <div className="slide-right sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px] font-[900]">
-                    <a href="https://induction.iiitd.edu.in/" target='_blank'><p className={""} onClick={viewMenu}> HOME</p></a>
+                    <a href="https://induction.iiitd.edu.in/"><p className={""} onClick={viewMenu}> HOME</p></a>
                 </div>
                 <div className="slide-right sm:pl-[80px] pl-[20px] sm:text-[100px] text-[50px] font-[900]">
                     <a href="https://www.iiitd.ac.in/" target='_blank'><p className={""}> ABOUT US</p></a>
